@@ -37,7 +37,7 @@ spec:
     - jvm
   type: custom
 extensions:
-  Test.com/LocationApp:
+  Test.com/AppDef:
     isApplicationPubliclyAccessible: nooo
     RTO: 4 hours
     RPO: 2 hours
