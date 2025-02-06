@@ -7,6 +7,8 @@ metadata:
   tags:
     - location:Gall
     - WebApp:API
+    - BusinessCritical:High
+    - Hosting:AWS
   owner: Reservation
   links:
     - name: Code
@@ -37,3 +39,5 @@ spec:
 extensions:
   Test.com/LocationApp:
     isApplicationPubliclyAccessible: nooo
+    RTO: 4 hours
+    RPO: 2 hours
