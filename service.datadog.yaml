@@ -1,7 +1,7 @@
 apiVersion: v3
 kind: service
 metadata:
-  name: Reservation-service
+  name: reservation-service
   description: Reservation App
   displayName: Reservation Service
   tags:
