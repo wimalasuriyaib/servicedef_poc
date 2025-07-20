@@ -7,6 +7,7 @@ spec:
   components:
   - "service:api-gateway"
   - "service:car-service"
+---
 apiVersion: v3
 kind: service
 metadata:
