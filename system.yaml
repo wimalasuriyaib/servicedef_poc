@@ -1,0 +1,9 @@
+schema-version: v1
+id: hotelapp
+name: Hotelap
+services:
+  - api-gateway
+  - discovery-server
+  - reservation-service
+  - location-service
+  - car-service
