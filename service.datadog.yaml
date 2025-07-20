@@ -1,20 +1,4 @@
 apiVersion: v3
-kind: system
-metadata:
-  name: aaa
-spec:
-  components:
-    - service:car-service
-    - service:reservation-service
-    - service:api-gateway
-    - service:location-service
-    - service:peer.hostname:localhost
-    - service:peer.hostname:blocked-ip-address
-    - service:location-service-0.0.1-snapshot
-    - service:discovery-server
-    - service:car-service-0.0.1-snapshot
-    - datastore:peer.db.name:car_rental_db,peer.db.system:mysql
-    - service:reservation-service-0.0.1-snapshot
 kind: service
 metadata:
   name: reservation-service
