@@ -1,0 +1,12 @@
+apiVersion: v3
+kind: system
+metadata:
+  name: hotelapp
+  displayName: Hotelap
+spec:
+  components:
+    - service:api-gateway
+    - service:discovery-server
+    - service:reservation-service
+    - service:location-service
+    - service:car-service
