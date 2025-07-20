@@ -5,8 +5,9 @@ metadata:
   displayName: Hotelap
 spec:
   components:
-    - service:api-gateway
-    - service:discovery-server
-    - service:reservation-service
-    - service:location-service
-    - service:car-service
+    - "service:api-gateway"
+    - "service:discovery-server"
+    - "service:reservation-service"
+    - "service:location-service"
+    - "service:car-service"
+
